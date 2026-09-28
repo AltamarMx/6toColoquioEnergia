@@ -10,9 +10,7 @@ wheels/
 .venv
 
 # Quarto
-_output/
 .quarto/
-*_files/
 /.jupyter_cache/
 
 /.quarto/

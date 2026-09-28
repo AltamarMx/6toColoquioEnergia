@@ -10,7 +10,7 @@ date-format: "D [de] MMMM [de] YYYY"
 institute: "6to Coloquio de Energía"
 format:
   revealjs:
-    output-file: index
+    output-file: index.html
     theme: [default, custom.scss]
     slide-number: c/t
     footer: "6to Coloquio de Energía · IER-UNAM"

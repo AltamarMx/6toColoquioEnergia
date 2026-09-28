@@ -20,6 +20,7 @@ El taller se realiza en [molab](https://molab.marimo.io), sin instalación local
 | `notebooks/app_sitios_taller.py` | Punto de control: funciona para un sitio y tiene 4 TODOs |
 | `data/sitios_mexico.csv` | Catálogo de 18 ciudades con latitud, longitud, altitud y zona horaria |
 | `scripts/verificar_celdas.py` | Comprueba que el código de las diapositivas coincide con `app_sitios.py` |
+| `docs/` | Salida renderizada que sirve GitHub Pages |
 | `custom.scss`, `_quarto.yml` | Tema y configuración de Quarto |
 
 Presentación publicada: <https://altamarmx.github.io/6toColoquioEnergia/>
@@ -30,8 +31,8 @@ Requiere [uv](https://docs.astral.sh/uv/) y [Quarto](https://quarto.org) ≥ 1.4
 
 ```bash
 uv sync                                   # instala dependencias (incluye jupyter para Quarto)
-uv run quarto render                      # genera _output/index.html
-uv run quarto publish gh-pages --no-render # publica _output en GitHub Pages
+uv run quarto render                      # genera docs/index.html
+git add docs && git commit -m "Publica" && git push   # GitHub Pages sirve la carpeta docs/ de main
 uv run python scripts/verificar_celdas.py # el código de las diapositivas == app_sitios.py
 uv run quarto preview presentacion.qmd    # vista previa con recarga automática
 ```
