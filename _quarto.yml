@@ -1,0 +1,12 @@
+project:
+  type: default
+  output-dir: _output
+  render:
+    - presentacion.qmd
+
+lang: es
+
+execute:
+  echo: true
+  warning: false
+  freeze: auto   # solo re-ejecuta las celdas si el .qmd cambia

@@ -1,0 +1,19 @@
+nombre,estado,latitud,longitud,altitud_m,zona_horaria
+Torreón,Coahuila,25.54,-103.41,1120,America/Mexico_City
+Saltillo,Coahuila,25.42,-101.00,1600,America/Mexico_City
+Monterrey,Nuevo León,25.67,-100.31,540,America/Monterrey
+Chihuahua,Chihuahua,28.63,-106.09,1430,America/Chihuahua
+Hermosillo,Sonora,29.07,-110.96,210,America/Hermosillo
+Tijuana,Baja California,32.51,-117.04,20,America/Tijuana
+La Paz,Baja California Sur,24.14,-110.31,30,America/Mazatlan
+Mazatlán,Sinaloa,23.25,-106.41,10,America/Mazatlan
+Durango,Durango,24.02,-104.65,1880,America/Mexico_City
+Zacatecas,Zacatecas,22.77,-102.58,2440,America/Mexico_City
+Guadalajara,Jalisco,20.67,-103.35,1560,America/Mexico_City
+Ciudad de México,Ciudad de México,19.43,-99.13,2240,America/Mexico_City
+Puebla,Puebla,19.04,-98.20,2135,America/Mexico_City
+Temixco,Morelos,18.84,-99.24,1220,America/Mexico_City
+Oaxaca,Oaxaca,17.07,-96.72,1550,America/Mexico_City
+Villahermosa,Tabasco,17.99,-92.93,10,America/Mexico_City
+Mérida,Yucatán,20.97,-89.62,10,America/Merida
+Cancún,Quintana Roo,21.16,-86.85,10,America/Cancun
