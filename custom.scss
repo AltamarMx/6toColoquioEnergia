@@ -15,7 +15,7 @@ $link-color:   $ier-ambar;
 $presentation-heading-color: $ier-azul;
 $presentation-heading-font-weight: 700;
 $presentation-font-size-root: 34px;
-$code-block-font-size: 0.62em;
+$code-block-font-size: 0.72em;
 $code-block-bg: #f1f3f5;
 
 /*-- scss:rules --*/
@@ -50,6 +50,17 @@ $code-block-bg: #f1f3f5;
   margin: 1em 0;
 }
 
+// Botón del enlace a Colab
+.reveal a.btn-colab {
+  display: inline-block;
+  background: $ier-ambar;
+  color: $ier-azul;
+  padding: 0.35em 0.9em;
+  border-radius: 0.4em;
+  text-decoration: none;
+  margin: 0.4em 0 0.8em;
+}
+
 // Tablas más compactas
 .reveal table {
   font-size: 0.7em;
@@ -62,6 +73,15 @@ $code-block-bg: #f1f3f5;
 
 .reveal .small { font-size: 0.7em; }
 .reveal .centro { text-align: center; }
+
+// Diapositivas de solo código: letra al máximo que cabe sin partir renglones (≤ 55 caracteres)
+.reveal section.solo-codigo pre { font-size: 1.0em; line-height: 1.3; }
+.reveal section.solo-codigo p { margin-top: 0.8em; }
+.reveal section.solo-codigo pre code { max-height: none; padding: 0.4em 0.6em; }
+
+// Diapositivas de enseñanza: el código es el protagonista (proyectores de baja resolución)
+.reveal section.code-grande pre { font-size: 0.9em; line-height: 1.35; }
+.reveal section.code-grande pre code { padding: 0.5em 0.7em; }
 
 // Diapositivas con celdas largas de código (sesión 2)
 .reveal section.code-chico pre { font-size: 0.5em; line-height: 1.3; }

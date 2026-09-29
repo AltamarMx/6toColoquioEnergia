@@ -3,6 +3,7 @@ project:
   output-dir: docs
   render:
     - presentacion.qmd
+  pre-render: uv run python scripts/generar_cuaderno.py   # regenera notebooks/taller_torreon.ipynb
 
 lang: es
 
